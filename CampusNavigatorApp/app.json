@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "GSFC Campus Navigator",
+    "slug": "gsfc-campus-navigator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2E86C1"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "edu.gsfcu.campusnavigator",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#2E86C1"
+      },
+      "package": "edu.gsfcu.campusnavigator",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "Navigation app for GSFC University campus",
+    "githubUrl": "https://github.com/gsfcu/campus-navigator"
+  }
+}
