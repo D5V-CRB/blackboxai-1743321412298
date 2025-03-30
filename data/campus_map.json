@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "main_gate", "name": "Main Gate", "coordinates": [40.7128, -74.0060]},
+    {"id": "library", "name": "Central Library", "coordinates": [40.7135, -74.0055]},
+    {"id": "science_bldg", "name": "Science Building", "coordinates": [40.7140, -74.0048]},
+    {"id": "cafeteria", "name": "Student Cafeteria", "coordinates": [40.7132, -74.0039]},
+    {"id": "dormitory", "name": "Dormitory", "coordinates": [40.7120, -74.0042]},
+    {"id": "gym", "name": "Gymnasium", "coordinates": [40.7115, -74.0055]},
+    {"id": "admin", "name": "Administration Building", "coordinates": [40.7125, -74.0065]}
+  ],
+  "edges": [
+    {"from": "main_gate", "to": "library", "distance": 120},
+    {"from": "main_gate", "to": "admin", "distance": 80},
+    {"from": "library", "to": "science_bldg", "distance": 90},
+    {"from": "library", "to": "cafeteria", "distance": 150},
+    {"from": "science_bldg", "to": "cafeteria", "distance": 100},
+    {"from": "cafeteria", "to": "dormitory", "distance": 110},
+    {"from": "dormitory", "to": "gym", "distance": 130},
+    {"from": "gym", "to": "admin", "distance": 140},
+    {"from": "admin", "to": "library", "distance": 100}
+  ]
+}
